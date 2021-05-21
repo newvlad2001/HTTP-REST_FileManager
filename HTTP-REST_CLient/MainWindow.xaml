@@ -1,0 +1,21 @@
+﻿<Window x:Class="HTTP_REST_CLient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HTTP_REST_CLient"
+        mc:Ignorable="d"
+        Title="FileManagerClient" Height="450" Width="484">
+    <Grid>
+        <Label x:Name="CurrentPathTextBox" HorizontalAlignment="Left" Margin="6,10,0,0" Content="root\" VerticalAlignment="Top" Width="380"/>
+        <ListBox x:Name="FilesListBox" SelectionMode="Single" Margin="10,30,10,71" MouseDoubleClick="FilesListBox_OnMouseDoubleClick"/>
+        <Grid Height="71" VerticalAlignment="Bottom">
+            <Button x:Name="AddFileButton" Content="AddFile" HorizontalAlignment="Left" Height="28" Margin="10,0,0,0" VerticalAlignment="Center" Width="61" Click="AddFileButton_Click"/>
+            <Button x:Name="DeleteButton" Content="Delete" HorizontalAlignment="Left" Height="28" Margin="87,0,0,0" VerticalAlignment="Center" Width="61" Click="DeleteButton_Click"/>
+            <Button x:Name="ShowStorageButton" Content="ShowStorage" HorizontalAlignment="Left" Height="28" VerticalAlignment="Center" Width="60" Click="ShowStorageButton_Click" Margin="166,0,0,0"/>
+            <Button x:Name="AppendButton" Content="Append" Height="28" Margin="0,0,164,0" VerticalAlignment="Center" Click="AppendButton_OnClick" HorizontalAlignment="Right" Width="61"/>
+            <Button x:Name="BackButton" Content="Back" Height="28" Margin="0,0,87,0" VerticalAlignment="Center" Click="Back_OnClick" HorizontalAlignment="Right" Width="61"/>
+            <Button x:Name="CopyButton" Content="Copy" Height="28" Margin="0,0,10,0" VerticalAlignment="Center" HorizontalAlignment="Right" Width="61" Click="CopyButton_OnClick"/>
+        </Grid>
+    </Grid>
+</Window>

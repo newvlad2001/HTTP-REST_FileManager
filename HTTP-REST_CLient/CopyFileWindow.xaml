@@ -1,0 +1,14 @@
+﻿<Window x:Class="HTTP_REST_CLient.CopyFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:HTTP_REST_CLient"
+        mc:Ignorable="d"
+        Title="CopyFileWindow" Height="200" Width="400">
+    <Grid>
+        <TextBox x:Name="DstFileTextBox" MaxLength="100" Margin="10,20,10,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <Button x:Name="CopyButton" Content="Copy" Margin="170,0,170,20" Height="20" VerticalAlignment="Bottom" Click="CopyButton_OnClick"/>
+        <CheckBox x:Name="DeleteSrcCheckBox" Content="DeleteSrcFile" HorizontalAlignment="Left" Margin="38,0,0,22" Height="15" VerticalAlignment="Bottom"/>
+    </Grid>
+</Window>

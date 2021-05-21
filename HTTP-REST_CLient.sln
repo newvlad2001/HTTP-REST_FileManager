@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTP-REST_CLient", "HTTP-REST_CLient\HTTP-REST_CLient.csproj", "{05590401-96EC-434C-8EAC-15BFA420873C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{F00D9851-8893-4D4F-B6D3-F2F30C5C4857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05590401-96EC-434C-8EAC-15BFA420873C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05590401-96EC-434C-8EAC-15BFA420873C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05590401-96EC-434C-8EAC-15BFA420873C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05590401-96EC-434C-8EAC-15BFA420873C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00D9851-8893-4D4F-B6D3-F2F30C5C4857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00D9851-8893-4D4F-B6D3-F2F30C5C4857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00D9851-8893-4D4F-B6D3-F2F30C5C4857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00D9851-8893-4D4F-B6D3-F2F30C5C4857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

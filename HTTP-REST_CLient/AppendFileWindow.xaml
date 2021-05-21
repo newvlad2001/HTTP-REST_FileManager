@@ -1,0 +1,13 @@
+﻿<Window x:Class="HTTP_REST_CLient.AppendFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:HTTP_REST_CLient"
+        mc:Ignorable="d"
+        Title="AppendFileWindow" Height="450" Width="400">
+    <Grid>
+        <TextBox x:Name="ContentTextBox" TextWrapping="Wrap" Margin="10,10,10,40"/>
+        <Button x:Name="AppendButton" Content="Append" Margin="170,0,170,20" Height="20" VerticalAlignment="Bottom" Click="AppendButton_OnClick"/>
+    </Grid>
+</Window>
